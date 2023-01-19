@@ -1,0 +1,428 @@
+body {
+    font-family: Montserrat, Arial;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #3f3b3b;
+}
+
+.container {
+    width: 1110px;
+
+    /* sayfada ortalamak icin */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+    height: 88px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.navbar a{
+    color: #212121;
+}
+
+.navbar .logo{
+    color: #212121;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.navbar-link{
+    width: 70px;
+    gap: 60px;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.link a{
+    
+    color: #212121;
+    text-decoration: none;
+}
+
+.header{
+    
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 56px;
+}
+
+.header .header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-family: Montserrat;
+}
+
+.header-text h1{
+    
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: -0.7px;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 12px;
+}
+.header-text p{
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 24px;
+}
+
+.header-text h3{
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 32px;
+}
+
+.header-text span{
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    text-decoration: line-through;
+    color: #c4c4c4;
+}
+
+.header-text .button{
+    gap: 16px;
+    padding: 16px 40px;
+    border-radius: 3px;
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.39;
+    border: #fff;
+}
+
+.leaders{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #807e7e;
+    margin-bottom: 120px;
+}
+
+.leaders img{
+    width: 1110px;
+}
+
+.cards{
+    width: 1110px;
+    display: flex;
+    gap: 24px;
+    
+}
+
+.card{
+    margin-bottom: 82px;
+}
+
+.card img{
+    margin-bottom: 24px;
+    
+}
+
+.card h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+
+.cards h4{
+    margin-bottom: 12px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+
+.card span{
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+
+.bundles{
+    font-size: 40px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #212121;
+}
+
+.bundles h2{
+    width: 665px;
+}
+
+.curcle{
+    margin-top: 64px;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 170px;
+}
+
+.article-title{
+    display: flex;
+    margin-bottom: 16px;
+    
+    
+}
+
+.articles h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+    flex-grow: 1;
+}
+
+.articles h5{
+    justify-content: flex-end;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0d6efd;
+}
+
+.article-cards{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.article h6{
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+    margin-top: 16px;
+}
+
+.article h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 200px;
+}
+
+.questions h3{
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 32px;
+}
+
+.questions h5{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;  
+}
+
+.questions p{
+    margin-bottom: 24px;
+}
+
+
+.inbox{
+    margin-top: 125px;
+    margin-bottom: 80px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color:rgb(43,116,238);
+    border-radius: 6px;
+}
+
+.inbox h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: #fff;
+    margin-top: 77px;
+    width: 426px;
+    display: block;
+    
+}
+
+.inbox h5{
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;    
+}
+
+.inbox .input{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 11px;
+    width: 367px;
+    height: 48px;
+    margin: 25px 30px 11px 29px;
+    padding: 1px 1px 1.1px 16px;
+    border-radius: 3px;
+
+}
+
+.input i{
+    background-color:rgb(43,116,238);
+    border-color: firebrick;
+
+}
+
+.footer-text .logo-link{
+	
+	flex-direction: row;
+}
+
+.footer-text .link{
+	display: flex;
+	justify-content: flex-end;
+	gap: 56px;
+	margin-right: 120px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	text-align: right;
+	margin-bottom: 200px;
+	
+}
+
+.footer-top a{
+	color: #3f3b3b;
+	text-decoration: none;
+}
+
+.footer-top{
+    display: flex;
+    gap: 56px;
+    flex-direction: row;
+    margin-bottom: 160px;
+}
+
+.footer-top .logo{
+    flex-grow: 1;
+}
+
+.footer-bottom a{
+	color: #3f3b3b;
+	text-decoration: none;
+}
+
+.footer-bottom{
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.footer-bottom .logo{
+    flex-grow: 1;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #807e7e;
+}
